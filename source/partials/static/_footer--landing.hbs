@@ -1,0 +1,24 @@
+<!-- Footer
+================================================== -->
+<footer id="footer" class="footer text-center">
+	<!-- Nav Start -->
+	<div class="classynav">
+		<ul id="nav" class="nav social-menu social-menu--landing social-menu--landing-glitch">
+			{{#each content.footer.social}}
+			<li class="text-center">
+				<a class="ml-2" href="{{url}}">
+					<i class="{{icon}}"></i><br/><br/>
+					
+					<span class="link-subtitle  d-none d-sm-block  ">{{subtitle}}</span>
+					<div class="d-md-none d-lg-block">
+					<span class="d-none d-sm-block text-center">{{title}}</span>
+				</div>
+				</a>
+			</li>
+			{{/each}}
+		</ul>
+	</div>
+
+
+</footer>
+<!-- Footer / End -->

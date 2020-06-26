@@ -1,0 +1,384 @@
+//- Team Player
+//- ----------------------------------------------
+
+.team-player {
+	.team-info-page &,
+	.player-info-page & {
+		position: relative;
+
+		@media (min-width: 1200px) {
+			position: fixed;
+			top: 0;
+			right: 0;
+			width: 100%;
+			height: calc(100vh - #{$header-height-desktop-mobile});
+		}
+
+		@media (min-width: $xxl-breakpoint) {
+			height: calc(100vh - #{$header-height-desktop});
+		}
+	}
+
+	.team-info-page & {
+		margin-top: 30px;
+
+		@include media-breakpoint-up(sm) {
+			margin-top: 50px;
+		}
+
+		@media (min-width: 1200px) {
+			margin-top: 0;
+		}
+
+		& > .container > .row > div {
+			@media (min-width: 768px) and (max-width: 1199px) {
+				flex-basis: 100%;
+				max-width: 100%;
+				margin-left: 0;
+			}
+		}
+	}
+
+	.player-info-page & {
+		@media (min-width: 768px) and (max-width: 1199px) {
+			display: none;
+		}
+	}
+	
+	&__base,
+	&__photo {
+		.player-info-page & {
+			@media (min-width: 1200px) {
+				position: absolute;
+				top: 0;
+				right: 0;
+				height: 100%;
+			}
+		}
+	}
+
+	&__base {
+		.player-info-page & {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			
+			width: 100%;
+
+			img {
+				width: 100%;
+				object-fit: contain;
+
+				@media (min-width: 1200px) {
+					height: 100%;
+					object-fit: cover;
+				}
+			}
+		}
+
+		.team-info-page & {
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translateX(-50%);
+
+			@media (min-width: 1200px) {
+				height: calc(54.5573vh);
+			}
+
+			img {
+				@media (max-width: 374px) {
+					max-width: 100%;
+				}
+
+				@media (min-width: 1200px) {
+					position: relative;
+					left: 50%;
+					height: 100%;
+					transform: translateX(-50%);
+				}
+			}
+		}
+	}
+
+	&__photo {
+		z-index: 1;
+
+		.player-info-page & {
+			width: 100%;
+
+			@media (max-width: 1199px) {
+				position: relative;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			@include media-breakpoint-up(lg) {
+				width: 60%;
+			}
+
+			@media (min-width: 1200px) {
+				width: 50%;
+			}
+
+			img {
+				width: 100%;
+
+				@media (min-width: 1200px) {
+					height: 100%;
+					object-fit: cover;
+				}
+			}
+		}
+
+		.team-info-page & {
+			@media (min-width: 1200px) {
+				height: 54.5573vh;
+			}
+
+			@media (min-width: $xxl-breakpoint) {
+				height: 53.981481vh;
+			}
+
+			img {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				opacity: .75;
+				transform: translate3d(0, 7.5%, 0);
+				transition: .2s all cubic-bezier(0.86, 0, 0.07, 1);
+
+				@media (max-width: 374px) {
+					max-width: 100%;
+				}
+
+				@media (min-width: 1200px) {
+					position: relative;
+					left: 50%;
+					height: 100%;
+					margin-left: 0;
+					margin-right: 0;
+					transform: translate3d(-50%, 7.5%, 0);
+				}
+			}
+		}
+
+		.team-info-page .tab-pane.show & {
+			img {
+				opacity: 1;
+				transform: translate3d(0, 0, 0);
+
+				@media (min-width: 1200px) {
+					transform: translate3d(-50%, 0, 0);
+				}
+			}
+		} 
+	}
+
+	&__info {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+
+		text-align: center;
+
+		@media (min-width: 1200px) {
+			height: calc(100vh - #{$header-height-desktop-mobile});
+		}
+
+		@media (min-width: $xxl-breakpoint) {
+			height: calc(100vh - #{$header-height-desktop});
+		}
+	}
+
+	&__header {
+		margin-bottom: 30px;
+
+		@include media-breakpoint-up(sm) {
+			margin-bottom: 50px;
+		}
+
+		@media (min-width: $xxl-breakpoint) {
+			margin-bottom: 52px;
+		}
+	}
+
+	&__name {
+		margin-bottom: 9px;
+
+		@media (min-width: $xxl-breakpoint) {
+			margin-bottom: 21px;
+		}
+	}
+
+	&__nickname {
+		margin-bottom: 15px;
+		font-size: 2.5rem;
+		text-transform: none;
+		color: theme-color("light");
+
+		@include media-breakpoint-up(sm) {
+			margin-bottom: 25px;
+			font-size: 3.5rem;
+		}
+
+		@media (min-width: $xxl-breakpoint) {
+			margin-bottom: 39px;
+			font-size: 5.25rem;
+		}
+
+		.add-icon {
+			position: absolute;
+			top: 4px;
+			left: calc(100% + 13px);
+
+			@include media-breakpoint-up(sm) {
+				top: 16px;
+				left: calc(100% + 23px);
+			}
+
+			@media (min-width: $xxl-breakpoint) {
+				top: 24px;
+				left: calc(100% + 27px);
+			}
+		}
+	}
+
+	&__filter {
+		margin-bottom: 40px;
+		padding: 15px 15px 60px;
+		display: flex;
+		justify-content: center;
+		z-index: 1;
+		-webkit-transform: translateZ(0px);
+		will-change: transform;
+
+		@media (min-width: 1200px) {
+			position: absolute;
+			top: calc(50% - 130px);
+			left: calc(100% + 122px);
+			transform: translateY(-50%);
+			flex-direction: column;
+			margin-bottom: 0;
+		}
+
+		@include media-breakpoint-up(xl) {
+			left: calc(100% + 110px);
+		}
+
+		@media (min-width: $xxl-breakpoint) {
+			top: calc(50% - 190px);
+			left: calc(100% + 130px);
+		}
+
+		li:nth-child(even)  {
+			a {
+				transform: rotate(45deg) translate(45.75%, 45.75%);
+
+				@media (min-width: 1200px) {
+					transform: rotate(45deg) translate(-45.75%, 45.75%);
+				}
+			}
+		}
+
+		li + li {
+			margin-left: -24.5px;
+
+			@media (min-width: 1200px) {
+				margin-top: -24.5px;
+				margin-left: 0;
+			}
+
+			@media (min-width: $xxl-breakpoint) {
+				margin-top: -34.3px;
+			}
+		}
+
+		a {
+			position: relative;
+			display: block;
+			width: 70px;
+			height: 70px;
+			padding: 0;
+			outline: 0;
+			border: 6px solid #3d4055;
+			transform: rotate(45deg);
+			overflow: hidden;
+			color: theme-color("light");
+			background-color: theme-color("dark");
+			transition: all 300ms ease;
+
+			@media (min-width: $xxl-breakpoint) {
+				width: 98px;
+				height: 98px;
+				border-width: 8.4px;
+			}
+
+			&::before,
+			&::after {
+				position: absolute;
+				content: "";
+				top: -21px;
+				left: -21px;
+				width: 100px;
+				height: 100px;
+				z-index: 33;
+				transform: rotate(-45deg);
+				transition: all 300ms ease;
+
+				@media (min-width: $xxl-breakpoint) {
+					top: -29.4px;
+					left: -29.4px;
+					width: 140px;
+					height: 140px;
+				}
+			}
+
+			&::before {
+				z-index: 34;
+				mix-blend-mode: multiply;
+				background-color: #6b7199;
+			}
+
+			&::after {
+				z-index: 35;
+				mix-blend-mode: screen;
+				background-color: #151720;
+			}
+
+			img {
+				width: 100px;
+				height: 100px;
+				margin-left: -21px;
+				margin-top: -21px;
+				object-fit: cover;
+				transform: rotate(-45deg);
+				filter: grayscale(100%);
+
+				@media (min-width: $xxl-breakpoint) {
+					top: -29.4px;
+					left: -29.4px;
+					width: 140px;
+					height: 140px;
+				}
+			}
+			
+			&:hover,
+			&.active {
+				position: relative;
+				z-index: 1;
+				border-color: theme-color("primary");
+
+				img {
+					filter: grayscale(0);
+				}
+
+				&::before,
+				&::after {
+					opacity: 0;
+				}
+			}
+		}
+	}
+}

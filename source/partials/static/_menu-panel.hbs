@@ -1,0 +1,184 @@
+<!-- Menu Panel -->
+<div class="menu-panel">
+	 
+	<ul class="menu-panel__mobile-bar list-unstyled d-md-none">
+		<li class="mobile-bar-item">
+			<a class="mobile-bar-item__header collapsed" data-toggle="collapse" href="#mobile_collapse_1" role="button"
+				aria-expanded="false" aria-controls="mobile_collapse_1">
+				Content
+				<span class="main-nav__toggle">&nbsp;</span>
+			</a>
+			<div id="mobile_collapse_1" class="collapse mobile-bar-item__body">
+				{{> _mobile-navigation }}
+			</div>
+		</li>
+		<li class="mobile-bar-item">
+			<a class="mobile-bar-item__header collapsed" data-toggle="collapse" href="#mobile_collapse_2" role="button"
+				aria-expanded="false" aria-controls="mobile_collapse_2">
+				Social Links
+				<span class="main-nav__toggle">&nbsp;</span>
+			</a>
+			<div id="mobile_collapse_2" class="collapse mobile-bar-item__body">
+				<ul class="social-menu social-menu--mobile-bar">
+					<!-- <li><a href="https://www.facebook.com/AccentureDigital/?ref=py_c"><span>Facebook</span></a></li> -->
+					<li><a href="https://twitter.com/AccentureFed"><span>Twitter</span></a></li>
+				</ul>
+			</div>
+		</li>
+		<li class="mobile-bar-item mobile-bar-item--info">
+			<a class="mobile-bar-item__header collapsed" data-toggle="collapse" href="#mobile_collapse_3" role="button"
+				aria-expanded="false" aria-controls="mobile_collapse_3">
+				Get in Touch!
+				<span class="main-nav__toggle">&nbsp;</span>
+			</a>
+			<div id="mobile_collapse_3" class="collapse mobile-bar-item__body">
+				<div class="mobile-bar-item__inner">
+					<ul class="list-unstyled">
+						<li class="info-box">
+							<div class="info-box__label">Max Parker - Recruiter</div>
+							<div class="info-box__content"><a href="mailto:#">mp-recruit<span
+										class="color-success">@</span>accenturefederal.com</a></div>
+						</li>
+						<!-- <li class="info-box">
+							<div class="info-box__label">Be our partner!</div>
+							<div class="info-box__content"><a href="mailto:#">partners<span
+										class="color-success">@</span>accenturefederal.com</a></div> 
+						</li>-->
+						<li class="info-box">
+							<div class="info-box__label">Jon Gabriel - Digital Producer</div>
+							<div class="info-box__content"><a href="mailto:#">jon.m.gabriel<span
+										class="color-success">@</span>accenturefederal.com</a></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</li>
+		<li class="mobile-bar-item mobile-bar-item--partners">
+			<a id="mobile_collapse_4h" class="mobile-bar-item__header collapsed" data-toggle="collapse"
+				href="#mobile_collapse_4" role="button" aria-expanded="false" aria-controls="mobile_collapse_4">
+				Our Partners
+				<span class="main-nav__toggle">&nbsp;</span>
+			</a>
+			<div id="mobile_collapse_4" class="collapse mobile-bar-item__body">
+				<div class="mobile-bar-item__inner">
+					<ul class="widget-partners-mobile-carousel">
+						<li>
+							<img src="assets/img/samples/partner-carousel-img-01.png" alt="">
+						</li>
+						<li>
+							<img src="assets/img/samples/partner-carousel-img-02.png" alt="">
+						</li>
+						<li>
+							<img src="assets/img/samples/partner-carousel-img-03.png" alt="">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</li>
+
+	</ul>
+
+	 <div class="w-100 text-center d-md-none mt-5">
+
+	<img src="assets/img/core-img/Acc_Logo_Black_Purple_RGB.png" />
+</div>
+	
+
+	<div class="menu-panel__top-bar">
+		<div class="top-bar-filter">
+			<label class="top-bar-filter__label">DS Groups</label>
+			<select class="cs-select">
+				<option value="all" selected>All Groups</option>
+				<option value="Data">Data Scientist</option>
+				<option value="Director">Directors</option>
+				<option value="Designer">Designers</option>
+				<option value="Engineer">Engineers</option>
+				<option value="Lead">Leads</option>
+				<option value="Manager">Managers</option>
+				<option value="Producer">Producers</option>
+				<option value="Researcher">Researchers</option>
+				<option value="Specialist">Specialist</option>
+			</select>
+		</div>
+		<ul class="top-bar-carousel">
+
+
+<!-- start -->
+{{#each content.people.profiles}}
+			<li class="top-bar-carousel__item {{role}}">
+				<div class="match-score-inline">
+					<div class="match-score-inline__body">
+			<div class="w-100">
+				<div class="col-lg-4 col-md-4 col-sm-6">
+<img src="{{image_url}}" class="img-fluid rounded-circle" alt="{{name}}">
+				</div>
+
+				<div class="col-lg-8 col-md-8 col-sm-6 digital-team">
+				<div class="info-box__label">{{name}}</div>
+				<span>{{title}}</span>
+				</div>
+
+				</div> 
+</div>
+									<div class="match-score-inline__footer pt-5">
+						<ul class="match-stats-links">
+							<li>
+								<a target="_blank" href="{{uri}}">
+									<svg role="img" class="df-icon df-icon--match-stats">
+										<use xlink:href="/assets/img/necromancers.svg#match-stats" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a target="_blank" href="{{uri}}">
+									<svg role="img" class="df-icon df-icon--match-lineups">
+										<use xlink:href="/assets/img/necromancers.svg#match-lineups" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a target="_blank" href="{{uri}}">
+									<svg role="img" class="df-icon df-icon--match-replay">
+										<use xlink:href="/assets/img/necromancers.svg#match-replay" />
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+</div>
+
+			</li>
+			{{/each}}
+
+			<!--end -->
+
+
+
+
+			<!--- stop here --->
+
+
+		</ul>
+	</div>
+	<div class="menu-panel__content d-none d-md-flex ">
+		<div class="menu-panel__navigation col-lg-4 col-md-6 col-sm-6">
+			{{> _dlmenu }}
+		</div>
+		<div class="menu-panel__widget-area col-lg-8 col-md-6 col-sm-6">
+			<div class="row">
+				<div class="col-md-12 col-lg-6 col-xl-5">
+					{{> _widget-text }}
+				</div>
+				<div class="col-md-12 col-lg-6 col-xl-5">
+					{{> _widget-contact-info }}
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					{{> _widget-partners-carousel }}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Menu Panel / End -->

@@ -1,0 +1,47 @@
+{
+  "name": "afs-digital-studio-tech",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "author": "Michael Ramos",
+  "license": "Copyright Accenture",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "browser-sync": "^2.23.3",
+    "del": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-include": "^2.3.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "3.1.x",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svg-sprites": "^4.1.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.7",
+    "jshint-stylish": "^2.2.1",
+    "panini": "^1.6.3",
+    "run-sequence": "^2.2.1",
+    "vinyl-ftp": "^0.6.1",
+    "yargs": "^11.0.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --production"
+  },
+  "dependencies": {
+    "chart.js": "^2.9.3",
+    "json-query": "^2.2.2",
+    "npm": "^6.14.4"
+  },
+  "optionalDependencies": {}
+}

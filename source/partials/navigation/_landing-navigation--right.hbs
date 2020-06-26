@@ -1,0 +1,42 @@
+<!-- Main Navigation Right -->
+<nav class="main-nav">
+	<ul class="main-nav__list">
+		<li class="{{#ifpage 'home'}}active{{/ifpage}}"><a href="home.html">News</a></li>
+
+		<li class="{{#ifpage 'features-shortcodes' 'features-typography' 'features-404' 'features-faqs'}}active{{/ifpage}} has-child">
+			<a href="#">Design</a>
+			<div class="main-nav__megamenu">
+				<div class="row">
+					<div class="col-md-4">
+						<h6 class="main-nav__title">Fjord</h6>
+
+					</div>
+					<div class="col-md-4">
+						<div class="row">
+							<h6 class="col-md-8 main-nav__title">Data and Design</h6>
+
+						</div>
+
+					</div>
+					<div class="col-md-4">
+						<div class="row">
+							<h6 class="col-md-8 main-nav__title">DevOps and Design</h6>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</li>
+		<li class="{{#ifpage 'shop' 'shop-2' 'shop-product' 'shop-checkout'}}active{{/ifpage}}">
+			<a href="#">Engage</a>
+			<ul class="main-nav__sub">
+				<li class="{{#ifpage 'shop'}}active{{/ifpage}}"><a href="">How To</a></li>
+				<li class="{{#ifpage 'shop-2'}}active{{/ifpage}}"><a href="">Studio Intake</a></li>
+
+			</ul>
+		</li>
+	</ul>
+</nav>
+<!-- Main Navigation Right / End -->

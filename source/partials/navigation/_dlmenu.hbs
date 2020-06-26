@@ -1,0 +1,66 @@
+<div id="dl-menu" class="dl-menuwrapper">
+	<!-- <button class="dl-trigger">Open Menu</button> -->
+	<ul class="dl-menu dl-menuopen">
+		<li class="{{#ifpage 'home'}}active{{/ifpage}}">
+			<a href="home.html">Home</a>
+		</li>
+		<li class="{{#ifpage 'team-selection-1' 'devops' 'team-overview' 'cto'}}active{{/ifpage}}">
+			<a href="devops.html">Team</a>
+			<ul class="dl-submenu">
+				<li class="{{#ifpage 'team-selection-1' 'devops' 'team-selection-3'}}active{{/ifpage}}">
+					<a href="#">Team Breakdown</a>
+					<ul class="dl-submenu">
+						<li class="{{#ifpage 'devops'}}active{{/ifpage}}"><a
+								href="devops.html">Engineering,
+								Dev, Devops
+							</a></li>
+						<li class="{{#ifpage 'team-selection-3'}}active{{/ifpage}}"><a
+								href="discovery-applied.html">Discovery Lab /
+								Applied Intelligence
+							</a></li>
+						<li class="{{#ifpage 'team-selection-3'}}active{{/ifpage}}"><a
+								href="team-selection-3.html">Digital
+								Platforms
+							</a></li>
+					</ul>
+				</li>
+				<li class="{{#ifpage 'team-overview'}}active{{/ifpage}}"><a href="team-overview.html">Team
+						Leadership</a></li>
+				<li class="{{#ifpage 'cto'}}active{{/ifpage}}"><a href="cto.html">CTO</a></li>
+			</ul>
+		</li>
+		<li
+			class="{{#ifpage 'projects' 'matches-upcoming' 'matches-standings' 'matches-stats-1' 'matches-stats-2' 'matches-stats-3' 'matches-lineups-1' 'matches-lineups-2' 'matches-lineups-3' 'matches-overview-1' 'matches-overview-2' 'matches-replay'}}active{{/ifpage}}">
+			<a href="#">Projects</a>
+			<ul class="dl-submenu">
+				<li class="{{#ifpage 'projects'}}active{{/ifpage}}"><a href="projects.html">Previous Projects</a>
+				</li>
+			</ul>
+		</li>
+		<li class="{{#ifpage 'blog-1'}}active{{/ifpage}}">
+			<a href="home.html">News</a>
+		</li>
+		<li>
+			<a href="#">Design</a>
+			<ul class="dl-submenu dl-megamenu">
+				<div class="row">
+
+					<ul class="col-md-6 col-lg-4">
+						<li class="{{#ifpage 'partners'}}active{{/ifpage}}"><a href="partners.html">Our Partners</a>
+						</li>
+					</ul>
+	
+					<ul class="col-md-12 col-lg-4">
+						
+					</ul>
+				</div>
+			</ul>
+		</li>
+		<li class="{{#ifpage ''}}active{{/ifpage}}">
+			<a href="shop.html">Engage</a>
+			<ul class="dl-submenu">
+				<li class="{{#ifpage ''}}active{{/ifpage}}"><a href="">How to</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>

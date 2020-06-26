@@ -1,0 +1,1381 @@
+{
+	"blog": {
+		"home": [
+			{
+				"format": "default",
+				"title": "COMET FOR THE WIN!",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v1-post-img-02.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Tech Challenge"
+				},
+				"date": "August 14th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "ADE team presents to PEO EIS!",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v1-post-img-02.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Tech Work"
+				},
+				"date": "August 14th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Pablo Alexo Jr outlines new strategy",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v1-post-img-03.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Strategy"
+				},
+				"date": "August 10th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Dev will compete in a new challenge",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v1-post-img-04.jpg",
+				"category": {
+					"class": "color-warning",
+					"name": "DevOps"
+				},
+				"date": "August 8th, 2018"
+			},
+			{
+				"format": "video",
+				"title": "Sam D shows off new ETL serverless methods",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v4-post-img-04.jpg",
+				"category": {
+					"class": "color-danger",
+					"name": "Videos"
+				},
+				"date": "August 3rd, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Discovery Lab pilots new AIP features",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v4-post-img-06.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Tech Work"
+				},
+				"date": "July 24th, 2018"
+			}
+		],
+		"blog-1": [
+			{
+				"format": "default",
+				"title": "Skylab is blasting off",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v1-post-img-01.jpg",
+				"category": {
+					"class": "color-warning",
+					"name": "DevOps"
+				},
+				"date": "August 15th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "COMET FOR THE WIN!",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v1-post-img-02.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Tech Work"
+				},
+				"date": "August 14th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Pablo Alexo Jr outlines new strategy",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v1-post-img-03.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Strategy"
+				},
+				"date": "August 10th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Dev will compete in a new challenge",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v1-post-img-04.jpg",
+				"category": {
+					"class": "color-warning",
+					"name": "DevOps"
+				},
+				"date": "August 8th, 2018"
+			},
+			{
+				"format": "video",
+				"title": "Sam D shows off new ETL serverless methods",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v1-post-img-03.jpg",
+				"category": {
+					"class": "color-danger",
+					"name": "Videos"
+				},
+				"date": "August 3rd, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Discovery Lab pilots new AIP features",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v1-post-img-02.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Tech Work"
+				},
+				"date": "July 24th, 2018"
+			}
+		],
+		"blog-2": [
+			{
+				"format": "default",
+				"title": "MDR Work finalized",
+				"img": "assets/img/samples/news-v2-post-img-01.jpg",
+				"category": {
+					"class": "color-warning",
+					"name": "DevOps"
+				},
+				"date": "August 15th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "OCR for ILMS gets production approval!",
+				"img": "assets/img/samples/news-v2-post-img-03.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Tech Work"
+				},
+				"date": "August 14th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Kubernetes new patch fixes all the faces bugs",
+				"img": "assets/img/samples/news-v2-post-img-02.jpg",
+				"category": {
+					"class": "color-warning",
+					"name": "DevOps"
+				},
+				"date": "August 12th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Tech Work Alexo Jr outlines new strategy",
+				"img": "assets/img/samples/news-v2-post-img-04.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Strategy"
+				},
+				"date": "August 10th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Take a look at the DC Workspace !",
+				"img": "assets/img/samples/news-v2-post-img-05.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Tech Work"
+				},
+				"date": "August 9th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Dev will compete in a new challenge",
+				"img": "assets/img/samples/news-v2-post-img-06.jpg",
+				"category": {
+					"class": "color-warning",
+					"name": "DevOps"
+				},
+				"date": "August 8th, 2018"
+			},
+			{
+				"format": "video",
+				"title": "Sam D shows off new ETL serverless methods",
+				"img": "assets/img/samples/news-v2-post-img-07.jpg",
+				"category": {
+					"class": "color-danger",
+					"name": "Videos"
+				},
+				"date": "August 3rd, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Eric Dai competes in EPIC: Elastic",
+				"img": "assets/img/samples/news-v2-post-img-08.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Tech Work"
+				},
+				"date": "July 29th, 2018"
+			}
+		],
+		"blog-3": [
+			{
+				"format": "default",
+				"title": "Partnership with GitHub emerges",
+				"img": "assets/img/samples/news-v3-post-img-01.jpg",
+				"category": {
+					"class": "color-warning",
+					"name": "DevOps"
+				},
+				"date": "August 15th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "COMET extends new TO!",
+				"img": "assets/img/samples/news-v3-post-img-03.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Tech Work"
+				},
+				"date": "August 14th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Kubernetes new patch fixes all the faces bugs",
+				"img": "assets/img/samples/news-v3-post-img-02.jpg",
+				"category": {
+					"class": "color-warning",
+					"name": "DevOps"
+				},
+				"date": "August 12th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Pablo Alexo Jr outlines new strategy",
+				"img": "assets/img/samples/news-v3-post-img-04.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Strategy"
+				},
+				"date": "August 10th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Take a look at the Necromancers new data strategy!",
+				"img": "assets/img/samples/news-v3-post-img-05.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Tech Work"
+				},
+				"date": "August 9th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Dev will compete in a new challenge",
+				"img": "assets/img/samples/news-v3-post-img-06.jpg",
+				"category": {
+					"class": "color-warning",
+					"name": "DevOps"
+				},
+				"date": "August 8th, 2018",
+				"after": "facebook"
+			},
+			{
+				"format": "video",
+				"title": "Sam D shows off new ETL serverless methods",
+				"img": "assets/img/samples/news-v3-post-img-07.jpg",
+				"category": {
+					"class": "color-danger",
+					"name": "Videos"
+				},
+				"date": "August 3rd, 2018",
+				"after": "twitter"
+			},
+			{
+				"format": "default",
+				"title": "Eric Dai competes in EPIC: Elastic",
+				"img": "assets/img/samples/news-v3-post-img-08.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Tech Work"
+				},
+				"date": "July 29th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Team completes GitHub Partnership training",
+				"img": "assets/img/samples/news-v3-post-img-09.jpg",
+				"category": {
+					"class": "color-warning",
+					"name": "DevOps"
+				},
+				"date": "July 26th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Discovery Lab pilots new AIP features",
+				"img": "assets/img/samples/news-v3-post-img-10.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Tech Work"
+				},
+				"date": "July 24th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Team presents at SF",
+				"img": "assets/img/samples/news-v3-post-img-01.jpg",
+				"category": {
+					"class": "color-warning",
+					"name": "DevOps"
+				},
+				"date": "August 15th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "COMET extends new TO!",
+				"img": "assets/img/samples/news-v3-post-img-03.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Tech Work"
+				},
+				"date": "August 14th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Kubernetes new patch fixes all the faces bugs",
+				"img": "assets/img/samples/news-v3-post-img-02.jpg",
+				"category": {
+					"class": "color-warning",
+					"name": "DevOps"
+				},
+				"date": "August 12th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Pablo Alexo Jr outlines new strategy",
+				"img": "assets/img/samples/news-v3-post-img-04.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Strategy"
+				},
+				"date": "August 10th, 2018"
+			}
+		],
+		"blog-4": [
+			{
+				"format": "default",
+				"title": "COMET for the win!",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v4-post-img-01.jpg",
+				"category": {
+					"class": "color-warning",
+					"name": "DevOps"
+				},
+				"date": "August 15th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Amtrak extends!",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v4-post-img-02.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Tech Work"
+				},
+				"date": "August 14th, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Pablo Alexo Jr outlines new strategy",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v4-post-img-03.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Strategy"
+				},
+				"date": "August 10th, 2018",
+				"after": "twitter"
+			},
+			{
+				"format": "video",
+				"title": "Sam D shows off new ETL serverless methods",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v4-post-img-04.jpg",
+				"category": {
+					"class": "color-danger",
+					"name": "Videos"
+				},
+				"date": "August 3rd, 2018"
+			},
+			{
+				"format": "default",
+				"title": "Dev will compete in a new challenge",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v4-post-img-05.jpg",
+				"category": {
+					"class": "color-warning",
+					"name": "DevOps"
+				},
+				"date": "August 8th, 2018",
+				"after": "twitch"
+			},
+			{
+				"format": "default",
+				"title": "Discovery Lab pilots new AIP features",
+				"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit mollitia modi, tempore, pariatur, error quaerat dolorum laborum, commodi laudantium soluta sit reiciendis praesentium dolore cumque ab.",
+				"img": "assets/img/samples/news-v4-post-img-06.jpg",
+				"category": {
+					"class": "color-success",
+					"name": "Tech Work"
+				},
+				"date": "July 24th, 2018"
+			}
+		]
+	},
+	"partners": [
+		{
+			"title": "Honeycomb",
+			"info": "www.honeycombgs.com",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"img": "assets/img/samples/partner-img-01.png",
+			"socials": [
+				{
+					"link": "https://www.facebook.com/danfisher.dev/"
+				},
+				{
+					"link": "https://twitter.com/danfisher_dev/"
+				}
+			]
+		},
+		{
+			"title": "Origami-San",
+			"info": "www.origami-san.com",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"img": "assets/img/samples/partner-img-0.jpg",
+			"socials": [
+				{
+					"link": "https://www.facebook.com/danfisher.dev/"
+				},
+				{
+					"link": "https://www.instagram.com/dan.fisher.dev/"
+				}
+			]
+		},
+		{
+			"title": "Furry Burglar",
+			"info": "www.furryburglar.com",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"img": "assets/img/samples/partner-img-03.png",
+			"socials": [
+				{
+					"link": "https://www.facebook.com/danfisher.dev/"
+				},
+				{
+					"link": "https://twitter.com/danfisher_dev/"
+				},
+				{
+					"link": "discordapp.com"
+				}
+			]
+		},
+		{
+			"title": "Veritas7",
+			"info": "www.veritas7Tech Work.com",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"img": "assets/img/samples/partner-img-04.png",
+			"socials": [
+				{
+					"link": "https://www.facebook.com/danfisher.dev/"
+				},
+				{
+					"link": "https://twitter.com/danfisher_dev/"
+				}
+			]
+		},
+		{
+			"title": "Origins DevOps",
+			"info": "www.originsgg.com",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"img": "assets/img/samples/partner-img-05.png",
+			"socials": [
+				{
+					"link": "https://twitter.com/danfisher_dev/"
+				},
+				{
+					"link": "twitch.com"
+				}
+			]
+		},
+		{
+			"title": "Triaxter",
+			"info": "www.triaxter.com",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"img": "assets/img/samples/partner-img-06.png",
+			"socials": [
+				{
+					"link": "https://www.instagram.com/dan.fisher.dev/"
+				},
+				{
+					"link": "https://www.facebook.com/danfisher.dev/"
+				}
+			]
+		},
+		{
+			"title": "Origami-San",
+			"info": "www.origami-san.com",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"img": "assets/img/samples/partner-img-0.jpg",
+			"socials": [
+				{
+					"link": "https://www.facebook.com/danfisher.dev/"
+				},
+				{
+					"link": "https://www.instagram.com/dan.fisher.dev/"
+				},
+				{
+					"link": "discordapp.com"
+				}
+			]
+		},
+		{
+			"title": "Honeycomb",
+			"info": "www.honeycombgs.com",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"img": "assets/img/samples/partner-img-01.png",
+			"socials": [
+				{
+					"link": "twitch.com"
+				},
+				{
+					"link": "https://twitter.com/danfisher_dev/"
+				}
+			]
+		},
+		{
+			"title": "Veritas7",
+			"info": "www.veritas7Tech Work.com",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"img": "assets/img/samples/partner-img-04.png",
+			"socials": [
+				{
+					"link": "https://www.facebook.com/danfisher.dev/"
+				},
+				{
+					"link": "https://twitter.com/danfisher_dev/"
+				}
+			]
+		},
+		{
+			"title": "Origins DevOps",
+			"info": "www.originsgg.com",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"img": "assets/img/samples/partner-img-05.png",
+			"socials": [
+				{
+					"link": "https://www.instagram.com/dan.fisher.dev/"
+				},
+				{
+					"link": "twitch.com"
+				}
+			]
+		}
+	],
+	"staff": [
+		{
+			"title": "Marina Gonzales",
+			"position": "Team Manager",
+			"age": 22,
+			"joined": "Jan 2016",
+			"country": "Costa Rica",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"img": "assets/img/samples/staff-member-img-01.jpg",
+			"socials": [
+				{
+					"link": "https://twitter.com/danfisher_dev/"
+				},
+				{
+					"link": "twitch.com"
+				},
+				{
+					"link": "https://www.instagram.com/dan.fisher.dev/"
+				}
+			]
+		},
+		{
+			"title": "Stephen Jackson",
+			"position": "Senior Recruiter",
+			"age": 23,
+			"joined": "Aug 2015",
+			"country": "United States",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"img": "assets/img/samples/staff-member-img-02.jpg",
+			"socials": [
+				{
+					"link": "https://twitter.com/danfisher_dev/"
+				},
+				{
+					"link": "twitch.com"
+				}
+			]
+		},
+		{
+			"title": "Jason Griffins",
+			"position": "Media Manager",
+			"age": 24,
+			"joined": "Dec 2017",
+			"country": "Canada",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"img": "assets/img/samples/staff-member-img-03.jpg",
+			"socials": [
+				{
+					"link": "https://www.facebook.com/danfisher.dev/"
+				},
+				{
+					"link": "https://twitter.com/danfisher_dev/"
+				}
+			]
+		},
+		{
+			"title": "Gina May Stevens",
+			"position": "Public Relations",
+			"age": 20,
+			"joined": "Sep 2016",
+			"country": "United States",
+			"excerpt": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"img": "assets/img/samples/staff-member-img-04.jpg",
+			"socials": [
+				{
+					"link": "https://www.facebook.com/danfisher.dev/"
+				},
+				{
+					"link": "https://twitter.com/danfisher_dev/"
+				},
+				{
+					"link": "discordapp.com"
+				}
+			]
+		}
+	],
+	"streams": {
+		"filter": [
+			{
+				"state": "active",
+				"data-filter": "*",
+				"img": "assets/img/samples/streams-filter-avatar-01.png"
+			},
+			{
+				"data-filter": ".stream-1",
+				"img": "assets/img/samples/streams-filter-avatar-0.jpg"
+			},
+			{
+				"data-filter": ".stream-2",
+				"img": "assets/img/samples/streams-filter-avatar-03.png"
+			},
+			{
+				"data-filter": ".stream-3",
+				"img": "assets/img/samples/streams-filter-avatar-04.png"
+			},
+			{
+				"data-filter": ".stream-4",
+				"img": "assets/img/samples/streams-filter-avatar-05.png"
+			},
+			{
+				"data-filter": ".stream-5",
+				"img": "assets/img/samples/streams-filter-avatar-06.png"
+			}
+		],
+		"items": [
+			{
+				"data-filter": "stream-1",
+				"img": "assets/img/samples/stream-img-01.jpg",
+				"avatar": "assets/img/samples/streams-archive-avatar-01.jpg",
+				"title": "Davikinger plays \"Clash of eternity\"",
+				"date": "August 3rd, 2018",
+				"player": "Davikinger90",
+				"state": "live"
+			},
+			{
+				"data-filter": "stream-2",
+				"img": "assets/img/samples/stream-img-02.jpg",
+				"avatar": "assets/img/samples/streams-archive-avatar-02.jpg",
+				"title": "The magimons adventure with G-Huntress",
+				"date": "August 3rd, 2018",
+				"player": "G-Huntress"
+			},
+			{
+				"data-filter": "stream-1 stream-3 stream-5",
+				"img": "assets/img/samples/stream-img-03.jpg",
+				"avatar": "assets/img/samples/streams-archive-avatar-03.jpg",
+				"title": "Super plumber bros speedrun for charity!",
+				"date": "July 27th, 2018",
+				"player": "Julie_Noire"
+			},
+			{
+				"data-filter": "stream-3 stream-4",
+				"img": "assets/img/samples/stream-img-04.jpg",
+				"avatar": "assets/img/samples/streams-archive-avatar-04.jpg",
+				"title": "24 hours stream before the goddess of war launch",
+				"date": "July 14th, 2018",
+				"player": "Davikinger90"
+			},
+			{
+				"data-filter": "stream-2 stream-3",
+				"img": "assets/img/samples/stream-img-01.jpg",
+				"avatar": "assets/img/samples/streams-archive-avatar-01.jpg",
+				"title": "Davikinger plays \"Clash of eternity\"",
+				"date": "August 3rd, 2018",
+				"player": "Davikinger90",
+				"state": "live"
+			},
+			{
+				"data-filter": "stream-5 stream-4",
+				"img": "assets/img/samples/stream-img-02.jpg",
+				"avatar": "assets/img/samples/streams-archive-avatar-02.jpg",
+				"title": "The magimons adventure with G-Huntress",
+				"date": "August 3rd, 2018",
+				"player": "G-Huntress"
+			},
+			{
+				"data-filter": "stream-4",
+				"img": "assets/img/samples/stream-img-03.jpg",
+				"avatar": "assets/img/samples/streams-archive-avatar-03.jpg",
+				"title": "Super plumber bros speedrun for charity!",
+				"date": "July 27th, 2018",
+				"player": "Julie_Noire"
+			},
+			{
+				"data-filter": "stream-1 stream-5",
+				"img": "assets/img/samples/stream-img-04.jpg",
+				"avatar": "assets/img/samples/streams-archive-avatar-04.jpg",
+				"title": "24 hours stream before the goddess of war launch",
+				"date": "July 14th, 2018",
+				"player": "Davikinger90"
+			}
+		]
+	},
+	"footer": {
+		"social": [
+			{
+				"title": "FUTURE-PROOF YOUR PROJECT",
+				"subtitle": "Rapid Prototyping ",
+	 			"icon": "fas fa-cubes",
+				"url": "#home"
+			},
+			{
+				"title": "Agility and Automation",
+				"subtitle": "DevOps",
+				"icon": "fas fa-dice-d20",
+				"url": "#about"
+			},
+			{
+				"title": "Design and Innovation",
+				"subtitle": "Fjord and Accenture",
+				 "icon": "fab fa-connectdevelop",
+				"url": "#services"
+			},
+			{
+				"title": "Applied Artificial Intelligence",
+				"subtitle": "Discovery Lab",
+				"icon": "fas fa-gem",
+				"url": "https://www.accenture.com/us-en/services/applied-intelligence-index"
+			}
+			
+		]
+	},
+
+		"people": {
+			"profiles": [
+				{
+					"image_url": "assets/img/people/cropped/kathy.conrad.jpg",
+					"name": "Kathy Conrad",
+					"title": "Digital Government Director",
+					"uri": "https://people.accenture.com/People/user/kathy.conrad",
+					"role": "Director"
+				},
+				{
+					"image_url": "assets/img/people/cropped/DominicDelmolino.jpg",
+					"name": "Dominic Demolino",
+					"title": "AFS CTO",
+					"uri": "/cto.html",
+					"role": "Director"
+				},
+				{
+					"image_url": "assets/img/people/cropped/christopher.s.zinner.jpg",
+					"name": "Chris Zinner",
+					"title": "AFS Digital & CX Practice Lead Managing Director",
+					"uri": "https://people.accenture.com/People/user/christopher.s.zinner",
+					"role": "Director"
+				},
+				{
+					"image_url": "assets/img/people/cropped/sabrina.blowers.jpg",
+					"name": "Sabrina Blowers",
+					"title": "Group Strategy Director",
+					"uri": "https://people.accenture.com/People/user/sabrina.blowers",
+					"role": "Director"
+				},
+				{
+					"image_url": "assets/img/people/cropped/veronica.gurdian.jpg",
+					"name": "Veronica Gurdian",
+					"title": "D.C, DP/Ops Lead",
+					"uri": "https://people.accenture.com/People/user/veronica.gurdian",
+					"role": "Lead"
+				},
+				{
+					"image_url": "assets/img/people/cropped/pablo.alexo.jr.jpg",
+					"name": "Pablo Alexo",
+					"title": "Group Technology Director",
+					"uri": "https://people.accenture.com/People/user/pablo.alexo.jr",
+					"role": "Director"
+				},
+				{
+					"image_url": "assets/img/people/cropped/elizabeth.a.relle.jpg",
+					"name": "Elizabeth Relle",
+					"title": "Sales Director",
+					"uri": "https://people.accenture.com/People/user/elizabeth.a.relle",
+					"role": "Director"
+				},
+				{
+					"image_url": "assets/img/people/cropped/ramos.jpg",
+					"name": "Mike Ramos",
+					"title": "Disruptive Tech Lead",
+					"uri": "https://people.accenture.com/People/user/michael.d.ramos",
+					"role": "Lead"
+				},
+				{
+					"image_url": "assets/img/people/cropped/aaron.pujanandez.jpg",
+					"name": "Aaron Pujanandez",
+					"title": "Data & Design / Discovery Lab Lead",
+					"uri": "https://people.accenture.com/People/user/aaron.pujanandez",
+					"role": "Lead"
+				},
+				{
+					"image_url": "assets/img/people/cropped/lauren.m.oliver.jpg",
+					"name": "Lauren Oliver",
+					"title": "Group Design Director, D.C. Location Lead",
+					"uri": "https://people.accenture.com/People/user/lauren.m.oliver",
+					"role": "Director"
+				},
+				{
+					"image_url": "assets/img/people/cropped/keelyn.desmond.jpg",
+					"name": "Keelyn Desmond",
+					"title": "Design Director",
+					"uri": "https://people.accenture.com/People/user/keelyn.desmond",
+					"role": "Director"
+				},
+				{
+					"image_url": "assets/img/people/cropped/philip.r.hartley.jpg",
+					"name": "Philip Hartley",
+					"title": "Design Director",
+					"uri": "https://people.accenture.com/People/user/philip.r.hartley",
+					"role": "Director"
+				},
+				{
+					"image_url": "assets/img/people/cropped/TJ_portrait.jpg",
+					"name": "TJ ODonnell",
+					"title": "Service Design Lead",
+					"uri": "https://people.accenture.com/People/user/tj.odonnell",
+					"role": "Lead"
+				},
+				{
+					"image_url": "assets/img/people/cropped/Michael_Buquet_square.jpg",
+					"name": "Michael Buquet",
+					"title": "Service Design Lead",
+					"uri": "https://people.accenture.com/People/user/michael.buquet",
+					"role": "Lead"
+				},
+				{
+					"image_url": "assets/img/people/cropped/ben-cannon-portrait.jpg",
+					"name": "Ben Cannon",
+					"title": "Design Director",
+					"uri": "https://people.accenture.com/People/user/ben.cannon",
+					"role": "Director"
+				},
+				{
+					"image_url": "assets/img/people/cropped/tiffany.smith.jpg",
+					"name": "Tiffany Smith",
+					"title": "Business Designer",
+					"uri": "https://people.accenture.com/People/user/tiffany.a.smith",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/jessica.l.schuett.jpg",
+					"name": "Jessica Schuett",
+					"title": "Service and Interaction Designer",
+					"uri": "https://people.accenture.com/People/user/jessica.l.schuett",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/jordan.taylor.png",
+					"name": "Jordan Taylor",
+					"title": "DevOps Engineer Lead",
+					"uri": "https://people.accenture.com/People/user/jordan.taylor",
+					"role": "Lead"
+				},
+				{
+					"image_url": "assets/img/people/cropped/chris.jpg",
+					"name": "Chris Newman",
+					"title": "Creative Technologist",
+					"uri": "/people/Bill_Klavon.html",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/chris.a.oliver.jpg",
+					"name": "Chris Oliver",
+					"title": "Service and Interaction Designer",
+					"uri": "https://people.accenture.com/People/user/chris.a.oliver",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/kevin.reamer.png",
+					"name": "Kevin Reamer",
+					"title": "Cloud Development Lead",
+					"uri": "https://people.accenture.com/People/user/kevin.reamer",
+					"role": "Lead"
+				},
+				{
+					"image_url": "assets/img/people/cropped/AdrienneTolpin.png",
+					"name": "Adrienne Tolpin",
+					"title": "Business Design Lead",
+					"uri": "https://people.accenture.com/People/user/adrienne.tolpin",
+					"role": "Lead"
+				},
+				{
+					"image_url": "assets/img/people/cropped/sara.flood.jpg",
+					"name": "Sara Flood",
+					"title": "Visual Designer",
+					"uri": "https://people.accenture.com/People/user/sara.flood",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/jon.gabriel.jpg",
+					"name": "Jon Gabriel",
+					"title": "Digital Producer",
+					"uri": "https://people.accenture.com/People/user/jon.m.gabriel",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/nune.vartanyan.jpg",
+					"name": "Nune Vartanyan",
+					"title": "Visual Designer",
+					"uri": "https://people.accenture.com/People/user/nune.vartanyan",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/Evelyncoolheadshot.jpg",
+					"name": "Evelyn Peng",
+					"title": "Digital Producer",
+					"uri": "https://people.accenture.com/People/user/evelyn.peng",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/isaac.brody.jpg",
+					"name": "Isaac Brody",
+					"title": "Video Specialist",
+					"uri": "https://people.accenture.com/People/user/isaac.brody",
+					"role": "Specialist"
+				},
+				{
+					"image_url": "assets/img/people/cropped/BrentKheadshotcopy.jpg",
+					"name": "Brent Kaye",
+					"title": "Digital Producer",
+					"uri": "https://people.accenture.com/People/user/brent.kaye",
+					"role": "Producer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/LuveanPhoto1copy.jpg",
+					"name": "Luvean Myers",
+					"title": "Business Designer",
+					"uri": "https://people.accenture.com/People/user/luvean.myers",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/Alazandra_Shorter.jpg",
+					"name": "Alazandra (Alex) Shorter",
+					"title": "Service and Interaction Designer",
+					"uri": "https://people.accenture.com/People/user/alazandra.n.shorter",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/jay.jpg",
+					"name": "Jay Blumenthal",
+					"title": "Design Researcher",
+					"uri": "https://people.accenture.com/People/user/jay.blumenthal",
+					"role": "Researcher"
+				},
+				{
+					"image_url": "assets/img/people/cropped/stephanie.jpg",
+					"name": "Stephanie Rubin",
+					"title": "D.C, DP/Ops Lead",
+					"uri": "https://people.accenture.com/People/user/stephanie.rubin",
+					"role": "Lead"
+				},
+				{
+					"image_url": "assets/img/people/cropped/sergio.jpg",
+					"name": "Sergio Sevilla",
+					"title": "Service and Interaction Designer",
+					"uri": "https://people.accenture.com/People/user/sergio.sevilla",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/Bree.Fouss.jpg",
+					"name": "Bree Fouss",
+					"title": "Business Designer",
+					"uri": "https://people.accenture.com/People/user/brianna.l.fouss",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/kathryn.m.ohare.jpg",
+					"name": "Katharine Graham",
+					"title": "Business Designer",
+					"uri": "/people/Bill_Klavon.html",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/Charlene.png",
+					"name": "Charlene Lertlumprasert",
+					"title": "Interaction Designer",
+					"uri": "https://people.accenture.com/People/user/c.lertlumprasert",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/emma.jpg",
+					"name": "Emma Grdina",
+					"title": "Visual Designer",
+					"uri": "https://people.accenture.com/People/user/emma.grdina",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/zach.png",
+					"name": "Zach Krohn",
+					"title": "Digital Transformation Manager",
+					"uri": "https://people.accenture.com/People/user/zachary.b.krohn",
+					"role": "Manager"
+				},
+				{
+					"image_url": "assets/img/people/cropped/malica_profile_pic.jpg",
+					"name": "Malica Fleming",
+					"title": "Interaction Design Lead",
+					"uri": "https://people.accenture.com/People/user/malica.n.fleming",
+					"role": "Lead"
+				},
+				{
+					"image_url": "assets/img/people/cropped/elise.png",
+					"name": "Elise Ansher",
+					"title": "Interaction Designer",
+					"uri": "https://people.accenture.com/People/user/elise.ansher",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/Chanin_Knight.png",
+					"name": "Chanin Knight",
+					"title": "Senior Interaction Designer",
+					"uri": "/people/Bill_Klavon.html",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/claeb-head.jpg",
+					"name": "Caleb Kyle",
+					"title": "Service & Senior Interaction Designer",
+					"uri": "https://people.accenture.com/People/user/caleb.t.kyle",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/jay-selway.jpg",
+					"name": "Jay Selway",
+					"title": "Design Director",
+					"uri": "https://people.accenture.com/People/user/jay.selway",
+					"role": "Director"
+				},
+				{
+					"image_url": "assets/img/people/cropped/kathryn.m.ohare.jpg",
+					"name": "Katie O'Hare",
+					"title": "Discovery Lab - Operations Manager",
+					"uri": "https://people.accenture.com/People/user/katherine.h.conklin",
+					"role": "Manager"
+				},
+				{
+					"image_url": "assets/img/people/cropped/ally.jpg",
+					"name": "Ally Annear",
+					"title": "Digital Producer",
+					"uri": "https://people.accenture.com/People/user/ally.annear",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/Meredith.png",
+					"name": "Meredith Englehart",
+					"title": "Business Designer",
+					"uri": "https://people.accenture.com/People/user/meredith.englehart",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/robert.blinkoff.jpg",
+					"name": "Robbie Blinkoff",
+					"title": "Design Director",
+					"uri": "https://people.accenture.com/People/user/robert.blinkoff",
+					"role": "Director"
+				},
+				{
+					"image_url": "assets/img/people/cropped/chrismcarter.jpg",
+					"name": "Chris Carter",
+					"title": "Business Design Lead",
+					"uri": "https://people.accenture.com/People/user/chris.m.carter",
+					"role": "Director"
+				},
+				{
+					"image_url": "assets/img/people/cropped/shannonmcconnell.jpg",
+					"name": "Shannon McConnell",
+					"title": "Service & Interaction Designer",
+					"uri": "https://people.accenture.com/People/user/shannon.mcconnell",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/kate.clayton.jpg",
+					"name": "Kate Clayton",
+					"title": "Design Lead",
+					"uri": "https://people.accenture.com/People/user/kate.clayton",
+					"role": "Lead"
+				},
+				{
+					"image_url": "assets/img/people/cropped/chi-chi.png",
+					"name": "Chi-Chi Okpalanma",
+					"title": "Digital Producer",
+					"uri": "https://people.accenture.com/People/user/chinazo.okpalanma",
+					"role": "Producer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/adam.png",
+					"name": "Adam Rotmil",
+					"title": "Interaction Design Lead",
+					"uri": "https://people.accenture.com/People/user/adam.rotmil",
+					"role": "Producer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/sun.ju.lee.jpg",
+					"name": "Sun Ju Lee",
+					"title": "Visual Designer",
+					"uri": "https://people.accenture.com/People/user/sun.ju.lee",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/sarah.jpg",
+					"name": "Sarah Robertson",
+					"title": "Service & Interaction Designer",
+					"uri": "https://people.accenture.com/People/user/sarah.a.robertson",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/Chase.jpg",
+					"name": "Chase York",
+					"title": "Visual Designer",
+					"uri": "https://people.accenture.com/People/user/chase.york",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/arianna.jpg",
+					"name": "Ariana Rodriguez-Gitler",
+					"title": "Digital Producer",
+					"uri": "https://people.accenture.com/People/user/a.rodriguez-gitler",
+					"role": "Producer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/Shielaugh.jpg",
+					"name": "Shielaugh Divelbiss",
+					"title": "Service Design Lead",
+					"uri": "https://people.accenture.com/People/user/s.v.divelbiss",
+					"role": "Lead"
+				},
+				{
+					"image_url": "assets/img/people/cropped/hanh.jpg",
+					"name": "Hanh Nguyen",
+					"title": "Interaction Designer",
+					"uri": "https://people.accenture.com/People/user/hanh.a.nguyen",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/zSmith.jpg",
+					"name": "Zach Smith",
+					"title": "Mobile Engineer",
+					"uri": "https://people.accenture.com/People/user/z.smith",
+					"role": "Engineer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/Caroline.jpg",
+					"name": "Caroline Smeallie",
+					"title": "Service Designer",
+					"uri": "https://people.accenture.com/People/user/caroline.smeallie",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/LauraK.jpg",
+					"name": "Laura Kahn",
+					"title": "Data Scientist",
+					"uri": "https://people.accenture.com/People/user/laura.kahn",
+					"role": "Data"
+				},
+				{
+					"image_url": "assets/img/people/cropped/feras.nabulsi.jpg",
+					"name": "Feras Nabulsi",
+					"title": "Interaction Design Lead",
+					"uri": "https://people.accenture.com/People/user/feras.nabulsi",
+					"role": "Lead"
+				},
+				{
+					"image_url": "assets/img/people/cropped/elena.hutchinson.jpg",
+					"name": "Elie Hutchinson",
+					"title": "Visual Designer, Creative POD",
+					"uri": "https://people.accenture.com/People/user/elena.hutchinson",
+					"role": "Designer"
+				},
+				{
+					"image_url": "assets/img/people/cropped/shew.jpg",
+					"name": "Janette Shew",
+					"title": "Service & Interaction Designer",
+					"uri": "https://people.accenture.com/People/user/janette.shew",
+					"role": "Designer"
+				},
+				{
+					"image_url": "https://people.accenture.com/misc/PhotoProvider.ashx?pk=1978770&dt=&dt=1578002384909",
+					"name": "Andrew Chase",
+					"title": "Senior Web Analyst",
+					"uri": "https://people.accenture.com/People/user/andrew.chase",
+					"role": "Designer"
+				}
+			
+			]
+		},
+
+			"portfolio": {
+				"projects": [
+					{
+						"logo": "assets/img/core-img/usps.png",
+						"title": "USPTO MOBILE E-SIGN",
+						"post-id": "/projects_post.html",
+						"project-type":"color-1"
+						
+					},
+
+					{
+						"logo": "assets/img/core-img/fbi_PNG5.png",
+						"title": "AIRPORT TRAFFIC SCANNER",
+						"post-id": "/projects_post.html",
+						"project-type":"color-1"
+					},
+
+					{
+						"logo": "assets/img/samples/partner-carousel-img-01.png",
+						"title": "DATA ANALTYTICS COLLABORATION",
+						"post-id": "/projects_post.html",
+						"project-type":"color-1"
+						
+						
+					},
+
+					{
+						"logo": "assets/img/core-img/fbi_PNG5.png",
+						"title": "AIRPORT TRAFFIC SCANNER",
+						"post-id": "/projects_post.html",
+						"project-type":"color-1"
+						
+					},
+
+					{
+						"logo": "assets/img/samples/partner-carousel-img-01.png",
+						"title": "DATA ANALTYTICS COLLABORATION",
+						"post-id": "/projects_post.html",
+						"project-type":"color-1"
+					},
+
+					{
+						"logo": "assets/img/core-img/fbi_PNG5.png",
+						"title": "AIRPORT TRAFFIC SCANNER",
+						"post-id": "/projects_post.html",
+						"project-type":"color-2"
+						
+					},
+
+					{
+						"logo": "assets/img/core-img/usps.png",
+						"title": "USPTO MOBILE E-SIGN",
+						"post-id": "/projects_post.html",
+						"project-type":"color-2"
+						
+					},
+
+					{
+						"logo": "assets/img/samples/partner-carousel-img-01.png",
+						"title": "DATA ANALTYTICS COLLABORATION",
+						"post-id": "/projects_post.html",
+						"project-type":"color-1"
+						
+					},
+					{
+						"logo": "assets/img/core-img/usps.png",
+						"title": "USPTO MOBILE E-SIGN",
+						"post-id": "/projects_post.html",
+						"project-type":"color-2"
+						
+					},
+
+					{
+						"logo": "assets/img/core-img/fbi_PNG5.png",
+						"title": "AIRPORT TRAFFIC SCANNER",
+						"post-id": "/projects_post.html",
+						"project-type":"color-2"
+						
+					},
+
+					{
+						"logo": "assets/img/samples/partner-carousel-img-01.png",
+						"title": "DATA ANALTYTICS COLLABORATION",
+						"post-id": "/projects_post.html",
+						"project-type":"color-1"
+						
+					},
+
+					{
+						"logo": "assets/img/core-img/fbi_PNG5.png",
+						"title": "AIRPORT TRAFFIC SCANNER",
+						"post-id": "/projects_post.html",
+						"project-type":"color-2"
+						
+					},
+
+					{
+						"logo": "assets/img/core-img/usps.png",
+						"title": "USPTO MOBILE E-SIGN",
+						"post-id": "/projects_post.html",
+						"project-type":"color-3"
+						
+					},
+
+					{
+						"logo": "assets/img/core-img/fbi_PNG5.png",
+						"title": "AIRPORT TRAFFIC SCANNER",
+						"post-id": "/projects_post.html",
+						"project-type":"color-2"
+						
+					},
+
+					{
+						"logo": "assets/img/core-img/usps.png",
+						"title": "USPTO MOBILE E-SIGN",
+						"post-id": "/projects_post.html",
+						"project-type":"color-3"
+						
+					},
+
+					{
+						"logo": "assets/img/core-img/fbi_PNG5.png",
+						"title": "AIRPORT TRAFFIC SCANNER",
+						"post-id": "/projects_post.html",
+						"project-type":"color-3"
+						
+						
+					}
+
+				]
+
+			}
+
+		}

@@ -1,0 +1,89 @@
+{{> _head }}
+
+<body
+	class="preloader-is--active {{#ifpage 'matches-lineups-1' 'matches-lineups-2' 'matches-lineups-3' 'matches-overview-1' 'matches-overview-2' 'matches-standings' 'matches-stats-1' 'matches-stats-2' 'matches-stats-3' 'matches-upcoming' 'team-overview' 'cto' 'team-player-2' 'team-player-3' 'team-player-4' 'team-player-5' 'team-selection-1' 'team-selection-3'}}bg-image bg-fixed{{/ifpage}} {{#ifpage 'matches-standings' 'matches-upcoming' 'team-overview' 'cto' 'team-player-2' 'team-player-3' 'team-player-4' 'team-player-5' 'team-selection-3' }}bg--texture-01 bg--dotted-3x3{{/ifpage}} {{#ifpage 'matches-lineups-1' 'matches-overview-1' 'matches-replay' 'matches-stats-1' 'devops'}}bg--matches-01{{/ifpage}} {{#ifpage 'matches-lineups-2' 'matches-stats-2' 'team-selection-1' }}bg--matches-02{{/ifpage}} {{#ifpage 'matches-replay' }}bg--matches-03 bg--dotted-3x3{{/ifpage}}">
+
+	<div class="site-wrapper site-layout--default">
+
+		{{> _header }}
+
+		{{> body }}
+
+		<!-- Overlay -->
+		<div class="site-overlay"></div>
+		<!-- Overlay / End -->
+
+		{{> _search-panel }}
+
+		{{> _menu-panel }}
+
+	</div>
+
+	{{> _preloader }}
+
+	{{> _cursor }}
+
+	{{> _footer-scripts }}
+
+
+	  <script>
+	
+	//CENTER SECTION SCROLLING
+function dualScroll(){
+  if(!centerChange){
+    var sh = $(".homepage .scroll--left").height() - window.innerHeight;
+    if(sectionCenter == "gear"){
+      sh = $(".gear .scroll--left").height() - window.innerHeight;
+    }
+    if(sectionCenter == "custom"){
+      sh = $(".custom .scroll--left").height() - window.innerHeight;
+    }
+
+    if ( $(window).scrollTop() >= sh ) {
+      $(window).scrollTop(1);
+
+    }
+    else if ( $(window).scrollTop() == 0 ) {
+      $(window).scrollTop(sh - 1);
+    }
+
+    if(!leftOpen && !cartOpen){
+      $(".scroll--right").css({"transform": "translate3d(0, " + ((((sh) - $(window).scrollTop())* -1)) + "px, 0)"});
+    }
+  }
+}
+	
+	</script>
+	
+	<script>
+	 //CENTER SCROLL LISTENER
+  $(".section--center").add(window).scroll(function(){
+    if(!isMobile){
+      dualScroll();
+    } else {
+      $(".scroll--right").css("transform", "");
+    }
+  });
+	</script>
+	
+	<script>
+	function loadCenter(){
+
+  //GENERATE CENTER SCROLL SECTION
+
+  $.get('php/centerScroll.php', function(response) {
+    $(".section--center").html(response);
+    if(!isMobile){
+      dualScroll();
+    }
+    loadInteract();
+    initRouter();
+    initListeners();
+  });
+
+}
+	</script>
+
+</body>
+
+</html>

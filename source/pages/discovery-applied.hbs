@@ -1,0 +1,230 @@
+
+<main class="site-content team-info-page" id="wrapper">
+	<!---graphics--->
+<div class="w-100 h-100vh dark-banner-2">
+
+
+<div class="col-lg-3 col-md-3 col-sm-12 text-center h-100vh">
+		      <div class="dream-blip blip5"></div>
+            <div class="dream-blip blip6"></div>
+            <div class="dream-blip blip7"></div>
+            <div class="dream-blip blip8"></div>  
+<h2 class="post__title h3 text-white"><a href="/" tabindex="0">Discovery Lab /
+								Applied Intelligence </a></h2>
+</div>
+
+<div class="col-lg-6 col-md-3 col-sm-12 text-center">
+	    
+<div class="image-box">
+<img src="assets/img/core-img/applied-intelligence-5.gif" class="center-block img-responsive phone-img floating" alt="">
+</div>
+</div>
+
+
+<div class="col-lg-3 col-md-3 col-sm-12 text-center h-100vh hideme">
+	      <div class="dream-blip blip1"></div>
+            <div class="dream-blip blip2"></div>
+            <div class="dream-blip blip3"></div>
+            <div class="dream-blip blip4"></div>  
+
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+ <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Educate',     11],
+          ['Engineer',      9],
+          ['Social Impact',  4]
+        
+        ]);
+
+        var options = {
+          title: '',
+          pieHole: 0.4,
+           colors: ['#a100ff', '#1b0142', '#3ddeed', '#ebebeb', '#58038a'],
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+    </script>
+
+    <div  class="wow fadeInUp pl-5 pr-5 bg-white d-none d-lg-block shadow-lg" style="position:fixed; z-index: 9;">
+<h5 class="mt-3">This weeks stats on Devops Operations</h5>
+	 <div id="donutchart"></div>
+
+</div>
+	</div>
+	
+</div>
+
+<!---end graphics--->
+
+
+<section class="row fullscreen bg-white pb-5 text-center" id="statsX">
+<div class="row">
+
+<div class="col-lg-12 col-md-12 col-sm-12">
+  <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 67%" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100">
+67% Development
+  </div>
+  <div class="progress-bar bg-success" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100">
+33% Operations
+  </div>
+</div>
+</div>
+
+<div class="col-lg-9 col-md-12 col-sm-12 pt-0 pl-5 pr-5 pb-5 wow fadeInRight">
+
+<div class="col-lg-12 col-md-12 col-sm-12 pt-4 pl-2 pb-1 text-left">
+
+<div class="alert alert-primary" role="alert">
+ <i class="fas fa-info-circle"></i>  DevOps automates infrastructure by performing continuous integration, continuous testing, and continuous deployment, including application performance monitoring on real time deliverables.
+</div>
+</div>
+
+
+<div class="row">
+<div class="col-lg-6 col-md-6 col-sm-12 pt-0 pl-5 pr-5 pb-5">
+<p class="h5 pb-0 mb-0">Development</p>
+<p class="pb-0 mb-0 color-primary">Task In Queue</p>
+<canvas id="myChart" class="w-100"></canvas>
+
+<script>
+var ctx = document.getElementById("myChart");
+var myChart = new Chart(ctx, {
+  type: 'pie',
+  data: {
+    labels: ['PLANNING', 'CODING', 'TESTING', 'BUILDING'],
+    datasets: [{
+      label: '',
+      data: [12, 19, 3, 5],
+      backgroundColor: [
+'#a100ff', '#1b0142', '#ebebeb', '#58038a'
+      ],
+      borderColor: [
+'#a100ff', '#1b0142', '#ebebeb', '#58038a'
+      ],
+      borderWidth: 1
+    }]
+  },
+  options: {
+   	//cutoutPercentage: 40,
+    responsive: true,
+
+  }
+});
+</script>
+ 
+
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 pt-0 pl-5 pr-5 pb-5">
+
+<p class="h5 pb-0 mb-0">Operations</p>
+<p class="pb-0 mb-0 color-primary">Task In Queue</p>
+
+<canvas id="myChart2"  class="w-100"></canvas>
+
+<script>
+var ctx = document.getElementById("myChart2").getContext('2d');
+
+var myChart = new Chart(ctx, {
+    type: 'polarArea',
+    data: {
+        labels: ["MONITOR",	"OPERATE",	"DEPLOY",	"RELEASE"],
+        datasets: [{    
+            data: [142,	50,	17,	11], // Specify the data values array
+          
+            borderColor: ['#a100ff', '#1b0142', '#3ddeed', '#58038a'], // Add custom color border (Line)
+            backgroundColor: ['#a100ff', '#1b0142', '#3ddeed', '#58038a'], // Add custom color background (Points and Fill)
+            borderWidth: 1 // Specify bar border width
+        }]},         
+    options: {
+      responsive: true, // Instruct chart js to respond nicely.
+      maintainAspectRatio: true // Add to prevent default behaviour of full-width/height 
+    
+    }
+});
+</script>
+ 
+
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-12 col-sm-12 wow p-5 fadeInRight text-left">
+
+<a href="" class="btn btn-primary text-light">Download Report <i class="fas fa-file-pdf ml-2"></i></a>
+
+</div>
+
+</div>
+</section>
+
+
+<section class="col-lg-12 col-md-12 col-sm-12 wow p-5 mb-0 bg-dark fadeInRight text-center h-100vh ">
+<div class="row">
+<div class="col-lg-9 col-md-9 col-sm-12 wow fadeInRight">
+
+<div class="row">
+  <div class="col-lg-6 col-md-6 col-sm-12 wow ">
+<p class="h3">
+  <a class="color-primary" href="#dTeam">
+ Devops Team <br/>
+<i class="fas fa-angle-down floating"></i>
+  </a>
+</p>
+</div>
+
+  <div class="col-lg-6 col-md-6 col-sm-12 wow ">
+<p class="h3" style="margin-top: -2em;">
+  <a class="text-light" href="#statsX">
+      <i class="fas fa-angle-up floating"> </i> <br/><br/>
+ Reports 
+  </a>
+</p>
+</div>
+</div>
+
+</div>
+</div>
+
+</section>
+
+
+
+<section class="mb-0 bg-dark pb-5" id="dTeam" style="padding-top:82px;">
+<div class="w-100 bg-light" style="z-index: 99;">
+  <div class="" style="z-index: 99;">
+	  <!---
+	  <div class="w-100 p-4 text-center">
+	  <h2 class="text-white">Engineering, Dev, Devops</h2>
+</div>
+--->
+	  {{#each content.people.profiles}}
+    <div class="col-lg-3 col-md-4 col-sm-12 h-33vh dark-pass shadow">
+
+		<!---->
+      <div class="w-100">
+						<div class="col-lg-4 col-md-4 col-sm-6">
+		<img src="{{image_url}}" class="img-fluid rounded-circle" alt="{{name}}">
+						</div>
+		
+						<div class="col-lg-8 col-md-8 col-sm-6 digital-team">
+						<div class="info-box__label">{{name}}</div>
+						<span>{{title}}</span>
+						</div>
+		
+						</div>
+						<!----->
+						
+						
+    </div>
+   	{{/each}}
+  </div>
+</div>
+</section>
+</main>

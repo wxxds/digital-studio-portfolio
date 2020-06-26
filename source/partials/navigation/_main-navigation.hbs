@@ -1,0 +1,63 @@
+<!-- Main Navigation -->
+<nav class="main-nav">
+	<ul class="main-nav__list">
+		<li class="{{#ifpage 'home'}}active{{/ifpage}}"><a href="/"><i class="fas fa-home"></i> &nbsp; Home</a></li>
+		<li class="{{#ifpage 'team-selection-1' 'devops' 'team-overview' 'cto'}}active{{/ifpage}}">
+			<a href="#">Team</a>
+			<ul class="main-nav__sub">
+				<li class="{{#ifpage 'team-selection-1' 'devops' 'team-selection-3'}}active{{/ifpage}}">
+					<a href="#">Team Breakdown</a>
+					<ul class="main-nav__sub">
+						<li class="{{#ifpage 'devops'}}active{{/ifpage}}"><a href="devops.html">Engineering,
+								Dev, Devops
+							</a></li>
+						<li class="{{#ifpage 'team-selection-3'}}active{{/ifpage}}"><a href="discovery-applied.html">Discovery Lab /
+								Applied Intelligence
+							</a></li>
+						<li class="{{#ifpage 'team-selection-3'}}active{{/ifpage}}"><a href="rapid-prototyping.html">
+							Rapid Prototyping
+							</a></li>
+					</ul>
+				</li>
+				<li class="{{#ifpage 'team-overview'}}active{{/ifpage}}"><a href="team-overview.html">Team
+						Leadership</a></li>
+				<li class="{{#ifpage 'cto'}}active{{/ifpage}}"><a href="cto.html">CTO</a></li>
+			</ul>
+		</li>
+		<li
+			class="{{#ifpage 'projects' 'matches-upcoming' 'matches-standings' 'matches-stats-1' 'matches-stats-2' 'matches-stats-3' 'matches-lineups-1' 'matches-lineups-2' 'matches-lineups-3' 'matches-overview-1' 'matches-overview-2' 'matches-replay'}}active{{/ifpage}}">
+			<a href="#">Projects</a>
+			<ul class="main-nav__sub">
+				<li class="{{#ifpage 'projects'}}active{{/ifpage}}"><a href="projects.html">Previous Projects</a>
+				</li>
+
+
+			</ul>
+		</li>
+		<li class="{{#ifpage 'home' }}active{{/ifpage}}"><a href="home.html">News</a>
+			<ul class="main-nav__sub">
+				<!--	<li class="{{#ifpage 'blog-1'}}active{{/ifpage}}"><a href="blog-1.html">News v1</a></li>
+				<li class="{{#ifpage 'blog-2'}}active{{/ifpage}}"><a href="blog-2.html">News v2</a></li>
+				<li class="{{#ifpage 'blog-3'}}active{{/ifpage}}"><a href="blog-3.html">News v3</a></li>
+				<li class="{{#ifpage 'blog-4'}}active{{/ifpage}}"><a href="blog-4.html">News v4</a></li>
+				<li class="{{#ifpage 'blog-post'}}active{{/ifpage}}"><a href="blog-post.html">Post Page</a></li>-->
+			</ul>
+		</li>
+		<li><a href="#">Design</a>
+			<ul class="main-nav__sub">
+				<!---<li class=""><a href="/">FJORD</a></li>
+				<li class=""><a href="/">Data and Design</a></li>
+				<li class=""><a href="/">DevOps and Design</a></li>--->
+			</ul>
+		</li>
+		<li class="{{#ifpage 'shop' 'shop-2' 'shop-product' 'shop-checkout'}}active{{/ifpage}}">
+			<a href="#">Engage</a>
+			<ul class="main-nav__sub">
+				<!---<li class="{{#ifpage 'shop'}}active{{/ifpage}}"><a href="#">How To</a></li>--->
+				<li class="{{#ifpage 'shop-2'}}active{{/ifpage}}"><a href="#">Studio Intake</a></li>
+
+			</ul>
+		</li>
+	</ul>
+</nav>
+<!-- Main Navigation / End -->

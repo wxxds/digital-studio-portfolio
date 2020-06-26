@@ -1,0 +1,137 @@
+//- Backgrounds
+//- ----------------------------------------------
+
+.bg-image {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: $body-color;
+}
+
+.bg-fixed {
+	background-attachment: fixed;
+}
+
+.bg--landing {
+	background-image: url(../img/bg-landing.jpg);
+}
+
+.bg--texture-01 {
+	background-image: url(../img/AdobeStock_279702278.jpg);
+}
+
+.bg--matches-01 {
+	background-image: url(../img/bg-matches-01.jpg);
+}
+
+.bg--matches-02 {
+	background-image: url(../img/bg-matches-02.jpg);
+}
+
+.bg--matches-03 {
+	background-image: url(../img/bg-projects-wxxds.png) !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.bg--ph-01 {
+	background-image: url(../img/page-heading-img-01.jpg);
+}
+
+.bg--ph-02 {
+	background-image: url(../img/page-heading-img-02.jpg);
+}
+
+.bg--ph-03 {
+	background-image: url(../img/page-heading-img-03.jpg);
+}
+
+.bg--ph-04 {
+	background-image: url(../img/page-heading-img-04.jpg);
+}
+
+.bg--ph-05 {
+	background-image: url(../img/page-heading-img-05.jpg);
+}
+
+.bg--ph-06 {
+	background-image: url(../img/page-heading-img-06.jpg);
+}
+
+.bg--product-color-01 {
+	background-color: #222430;
+}
+
+.bg--product-color-02 {
+	background-color: #ff1c5c;
+}
+
+.bg--product-color-03 {
+	background-color: #c6cbea;
+}
+
+.bg--checkout-login {
+	background-image: url(../img/checkout-login-bg.jpg);
+}
+
+.bg--checkout-redeem {
+	background-image: url(../img/checkout-redeem-bg.jpg)
+}
+
+// Adds dotted pattern over the background
+.bg--dotted-3x3 {
+	&::before {
+		content: "";
+		display: block;
+		position: fixed;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background-image: url(../img/3x3-black.gif);
+		background-repeat: repeat;
+		background-position: 50% 0;
+		z-index: -1;
+
+		@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+			background-image: url(../img/3x3-black@2x.gif);
+			background-size: 3px 3px;
+		}
+	}
+}
+
+// Borders
+
+.bc-color-pallete-01 {
+	border-color: theme-color("dark");
+}
+
+.bc-color-pallete-02 {
+	border-color: $body-color;
+}
+
+.bc-color-pallete-03 {
+	border-color: theme-color("secondary");
+}
+
+.bc-color-pallete-04 {
+	border-color: theme-color("info");
+}
+
+.bc-color-pallete-05 {
+	border-color: theme-color("warning");
+}
+
+.bc-color-pallete-06 {
+	border-color: theme-color("danger");
+}
+
+.bc-color-pallete-07 {
+	border-color: theme-color("success");
+}
+
+.bc-color-pallete-08 {
+	border-color: theme-color("primary");
+}

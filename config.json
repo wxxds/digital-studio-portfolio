@@ -1,0 +1,51 @@
+{
+	"PATH": {
+		"src": "source",
+		"dist": "build",
+		"src_js": "source/assets/js",
+		"dist_js": "build/assets/js",
+		"src_css": "source/assets/scss",
+		"dist_css": "build/assets/css",
+		"src_img": "source/assets/img",
+		"dist_img": "build/assets/img",
+		"src_data": "source/data/",
+		"dist_data": "build/data/"
+	},
+	"SERVER": {
+		"port": 3000,
+		"injectChanges": true,
+		"server": {
+			"baseDir": "build"
+		},
+		"ghostMode": {
+			"clicks": false,
+			"forms": false,
+			"scroll": false
+		}
+	},
+	"PANINI": {
+		"root": "source/pages/",
+		"layouts": "source/layouts/",
+		"partials": "source/partials/",
+		"helpers": "source/helpers/",
+		"data": "source/data/"
+	},
+	"AUTOPREFIXER": {
+		"browsers": [
+			"last 2 versions",
+			"IE 11",
+			"Firefox ESR"
+		]
+	},
+	"COPY": [
+		"source/**",
+		"!source/{helpers,layouts,pages,partials}",
+		"!source/{helpers,layouts,pages,partials}/**",
+		"!source/{data}/**",
+		"source/data/content.json",
+		"!source/assets/{img,scss}",
+		"!source/assets/{img,scss}/**",
+		"!source/assets/vendor/bootstrap/scss",
+		"!source/assets/vendor/bootstrap/scss/**"
+	]
+}

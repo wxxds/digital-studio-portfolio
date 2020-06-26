@@ -1,0 +1,61 @@
+.cursor {
+	position: fixed;
+	left: 0;
+	top: 0;
+	pointer-events: none;
+}
+
+.cursor--small {
+	width: 5px;
+	height: 5px;
+	left: -2.5px;
+	top: -2.5px;
+	border-radius: 50%;
+	z-index: 1100000;
+	background-color: theme-color("primary");
+
+	&:before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 24px;
+		height: 24px;
+		border-radius: 50%;
+		opacity: 0;
+		transform: translate(-50%, -50%);
+		background-color: rgba(theme-color("primary"), .5);
+		transition: .2s all ease;
+	}
+
+	&.cursor--active {
+		background-color: transparent;
+
+		&:before {
+			opacity: 1;
+		}
+	}
+}
+
+.cursor--canvas {
+	width: 100vw;
+	height: 100vh;
+	z-index: 1200000;
+
+	color: rgba(theme-color("primary"), .5);
+	transition: .2s all ease;
+
+	&.cursor--active {
+		opacity: 0;
+	}
+}
+
+
+.cursor-is--active {
+	&,
+	& a,
+	& button,
+	& .btn:not(:disabled):not(.disabled) {
+		cursor: none;
+	}
+}

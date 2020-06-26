@@ -1,0 +1,100 @@
+---
+layout: horizontal
+---
+
+
+<div class="content partners-layout pb-5">
+{{#each content.portfolio.projects}}
+<article class="partner {{project-type}}">
+		<div class="partner__logo">
+          <a href="{{post-id}}">
+			<img class="img-fluid" src="{{logo}}" alt="{{title}}">
+      </a>
+		</div>
+		<div class="partner__header">
+			<p class="h5">{{title}}</p>
+			<a href="{{post-id}}" class="partner__info">{{info}}</a>
+		</div>
+		<p class="partner__excerpt">{{title}}</p>
+
+	</article>
+
+{{/each}}
+</div>
+
+
+
+
+<div id="search-project">
+<div class="row">
+  <div class="col-lg-5">
+  <form role="form" id="header-search-form" class="search-form search-form--header">
+<input type="text" onInput="edValueKeyPress()" class="form-control text-left" value="" id="edValue" placeholder="What are you looking for...?">
+</form>
+</div>
+<div class="col-lg-7">
+<!---filters-->
+<div class="btn-group pull-right" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-secondary btn-project-filter">Active</button>
+  <button type="button" class="btn btn-secondary  btn-project-filter">Released</button>
+  <button type="button" class="btn btn-secondary  btn-project-filter">Proposals</button>
+  <button type="button" class="btn btn-secondary  btn-project-filter">Prototypes</button>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="" id="search-panel-project" style="display:none;">
+<h3 class="text-white">
+<span id="lblValue"></span>
+</h3>
+</div>
+
+<script>
+
+  // Add active class to the current button (highlight it)
+var header = document.getElementById("search-project");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
+
+<script>
+function edValueKeyPress() {
+    var edValue = document.getElementById("edValue");
+    var s = edValue.value;
+
+    var lblValue = document.getElementById("lblValue");
+    lblValue.innerText = s;
+
+    
+}
+</script>
+
+<script>
+
+
+var input = document.getElementById('edValue');
+var div = document.getElementById('search-panel-project');
+
+// When the user type, we show the results
+input.addEventListener('keypress', function() {
+  div.style.display = "flex";
+});
+
+// To hide the div when the cursor isn't in the input
+input.addEventListener('focusout', function() {
+  div.style.display = "none";
+});
+
+
+</script>
+
+
+
