@@ -39,7 +39,7 @@
     "build": "gulp build --production"
   },
   "dependencies": {
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "json-query": "^2.2.2",
     "lodash": "^4.17.15",
     "lodash.template": "^4.5.0",
